@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Matter Phase --></label>
+        <name>Matter_Phase__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post-closing</masterLabel>
+            <translation><!-- Post-closing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-closing</masterLabel>
+            <translation><!-- Pre-closing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workout</masterLabel>
+            <translation><!-- Workout --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

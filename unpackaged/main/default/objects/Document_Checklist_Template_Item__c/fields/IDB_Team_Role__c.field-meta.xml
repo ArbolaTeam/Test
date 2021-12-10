@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IDB_Team_Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Team Role</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Team Leader</fullName>
+                <default>false</default>
+                <label>Team Leader</label>
+            </value>
+            <value>
+                <fullName>Investment Officer</fullName>
+                <default>false</default>
+                <label>Investment Officer</label>
+            </value>
+            <value>
+                <fullName>Financial Analyst / Alternate Investment Officer</fullName>
+                <default>false</default>
+                <label>Financial Analyst / Alternate Investment Officer</label>
+            </value>
+            <value>
+                <fullName>Financial Products and Services Officer</fullName>
+                <default>false</default>
+                <label>Financial Products and Services Officer</label>
+            </value>
+            <value>
+                <fullName>Credit Risk Officer</fullName>
+                <default>false</default>
+                <label>Credit Risk Officer</label>
+            </value>
+            <value>
+                <fullName>Environmental and Social Officer</fullName>
+                <default>false</default>
+                <label>Environmental and Social Officer</label>
+            </value>
+            <value>
+                <fullName>Transaction Attorney</fullName>
+                <default>false</default>
+                <label>Transaction Attorney</label>
+            </value>
+            <value>
+                <fullName>Development Effectiveness Officer</fullName>
+                <default>false</default>
+                <label>Development Effectiveness Officer</label>
+            </value>
+            <value>
+                <fullName>Corporate Governance Officer</fullName>
+                <default>false</default>
+                <label>Corporate Governance Officer</label>
+            </value>
+            <value>
+                <fullName>Institutional Integrity Officer</fullName>
+                <default>false</default>
+                <label>Institutional Integrity Officer</label>
+            </value>
+            <value>
+                <fullName>Resource Mobilization Officer</fullName>
+                <default>false</default>
+                <label>Resource Mobilization Officer</label>
+            </value>
+            <value>
+                <fullName>Portfolio Management Officer</fullName>
+                <default>false</default>
+                <label>Portfolio Management Officer</label>
+            </value>
+            <value>
+                <fullName>Advisory Services Officer</fullName>
+                <default>false</default>
+                <label>Advisory Services Officer</label>
+            </value>
+            <value>
+                <fullName>Special Assets Officer</fullName>
+                <default>false</default>
+                <label>Special Assets Officer</label>
+            </value>
+            <value>
+                <fullName>Alternate Portfolio Management Officer</fullName>
+                <default>false</default>
+                <label>Alternate Portfolio Management Officer</label>
+            </value>
+            <value>
+                <fullName>Loan Services Officer</fullName>
+                <default>false</default>
+                <label>Loan Services Officer</label>
+            </value>
+            <value>
+                <fullName>Alternate Special Assets Officer</fullName>
+                <default>false</default>
+                <label>Alternate Special Assets Officer</label>
+            </value>
+            <value>
+                <fullName>Portfolio Administration Officer</fullName>
+                <default>false</default>
+                <label>Portfolio Administration Officer</label>
+            </value>
+            <value>
+                <fullName>Blended Finance Officer</fullName>
+                <default>false</default>
+                <label>Blended Finance Officer</label>
+            </value>
+            <value>
+                <fullName>Loan Services Officer Monitoring</fullName>
+                <default>false</default>
+                <label>Loan Services Officer Monitoring</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

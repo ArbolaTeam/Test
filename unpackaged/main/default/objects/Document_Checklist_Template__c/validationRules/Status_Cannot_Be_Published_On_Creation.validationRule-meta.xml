@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Cannot_Be_Published_On_Creation</fullName>
+    <active>true</active>
+    <description>This Validation rule is to restrict the selection of the status value as Published</description>
+    <errorConditionFormula>AND(ISNEW(),ISPICKVAL(Status__c,'Published'))</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>Status Cannot Be Published On Creation</errorMessage>
+</ValidationRule>

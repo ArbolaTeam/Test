@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_RFP_Initiations</fullName>
+    <columns>NAME</columns>
+    <columns>Transaction_Name__c</columns>
+    <columns>Transaction_Phase__c</columns>
+    <columns>Legal_Expense_Responsibility__c</columns>
+    <columns>Governing_Law__c</columns>
+    <columns>Matter__c</columns>
+    <columns>Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All RFP Initiations</label>
+</ListView>

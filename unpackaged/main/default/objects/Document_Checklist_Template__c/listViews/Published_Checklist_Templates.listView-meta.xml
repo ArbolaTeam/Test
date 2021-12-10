@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Published_Checklist_Templates</fullName>
+    <columns>NAME</columns>
+    <columns>Segment__c</columns>
+    <columns>Sector__c</columns>
+    <columns>Template_Name__c</columns>
+    <columns>Status__c</columns>
+    <columns>Phase__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Published</value>
+    </filters>
+    <label>Published Checklist Templates</label>
+</ListView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Responsible for Payment --></label>
+        <name>Responsible_for_Payment__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment by Advisory Services – Administered Funds</masterLabel>
+            <translation><!-- Payment by Advisory Services – Administered Funds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment by Client</masterLabel>
+            <translation><!-- Payment by Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment by GCL</masterLabel>
+            <translation><!-- Payment by GCL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment by INO</masterLabel>
+            <translation><!-- Payment by INO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment hybrid – IDB Invest</masterLabel>
+            <translation><!-- Payment hybrid – IDB Invest --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

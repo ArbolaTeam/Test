@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal_Expense_Responsibility__c</fullName>
+    <externalId>false</externalId>
+    <label>Legal Expense Responsibility</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Payment by GCL</fullName>
+                <default>false</default>
+                <label>Payment by GCL</label>
+            </value>
+            <value>
+                <fullName>Payment by INO</fullName>
+                <default>false</default>
+                <label>Payment by INO</label>
+            </value>
+            <value>
+                <fullName>Payment by Client</fullName>
+                <default>false</default>
+                <label>Payment by Client</label>
+            </value>
+            <value>
+                <fullName>Payment by Advisory Services – Administered Funds</fullName>
+                <default>false</default>
+                <label>Payment by Advisory Services – Administered Funds</label>
+            </value>
+            <value>
+                <fullName>Payment hybrid – IDB Invest</fullName>
+                <default>false</default>
+                <label>Payment hybrid – IDB Invest</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Administrator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Administrator</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

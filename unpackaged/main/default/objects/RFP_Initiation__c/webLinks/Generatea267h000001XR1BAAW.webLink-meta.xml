@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Generatea267h000001XR1BAAW</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Crete RFP (New York Counsel)</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR(IF($Site.prefix == '/s','/apex/dfsle__gendocumentgenerator', $Site.Prefix +'/apex/dfsle__gendocumentgenerator'), null, [sId = RFP_Initiation__c.Id, templateId = 'a267h000001XR1BAAW', recordId = RFP_Initiation__c.Id, title = 'RFP International'])}</url>
+</WebLink>

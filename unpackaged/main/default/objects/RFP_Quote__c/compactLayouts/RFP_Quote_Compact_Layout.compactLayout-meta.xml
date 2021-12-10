@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RFP_Quote_Compact_Layout</fullName>
+    <fields>Firm__c</fields>
+    <fields>Total_Fees__c</fields>
+    <fields>Total_Expenses__c</fields>
+    <fields>Total_Estimated_Amount__c</fields>
+    <fields>CurrencyIsoCode</fields>
+    <fields>Conflict_of_Interest__c</fields>
+    <label>RFP Quote Compact Layout</label>
+</CompactLayout>

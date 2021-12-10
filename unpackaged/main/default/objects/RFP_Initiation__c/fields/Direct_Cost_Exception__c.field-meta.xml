@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Direct_Cost_Exception__c</fullName>
+    <externalId>false</externalId>
+    <label>Direct Cost Exception</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Direct_Hire_Cost_Estimate__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Immediate Hiring Required</fullName>
+                <default>false</default>
+                <label>Immediate Hiring Required</label>
+            </value>
+            <value>
+                <fullName>New Projects with Existing Clients</fullName>
+                <default>false</default>
+                <label>New Projects with Existing Clients</label>
+            </value>
+            <value>
+                <fullName>Joint Representation with Other Institutions Desirable</fullName>
+                <default>false</default>
+                <label>Joint Representation with Other Institutions Desirable</label>
+            </value>
+            <value>
+                <fullName>Specialized Expertise Required</fullName>
+                <default>false</default>
+                <label>Specialized Expertise Required</label>
+            </value>
+            <value>
+                <fullName>Prequalified Counsel Selected</fullName>
+                <default>false</default>
+                <label>Prequalified Counsel Selected</label>
+            </value>
+            <value>
+                <fullName>Competitive Process not Practical</fullName>
+                <default>false</default>
+                <label>Competitive Process not Practical</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Estimated cost over US$50,000</controllingFieldValue>
+            <valueName>Immediate Hiring Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estimated cost over US$50,000</controllingFieldValue>
+            <valueName>New Projects with Existing Clients</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estimated cost over US$50,000</controllingFieldValue>
+            <valueName>Joint Representation with Other Institutions Desirable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estimated cost over US$50,000</controllingFieldValue>
+            <valueName>Specialized Expertise Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estimated cost over US$50,000</controllingFieldValue>
+            <valueName>Prequalified Counsel Selected</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estimated cost over US$50,000</controllingFieldValue>
+            <valueName>Competitive Process not Practical</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

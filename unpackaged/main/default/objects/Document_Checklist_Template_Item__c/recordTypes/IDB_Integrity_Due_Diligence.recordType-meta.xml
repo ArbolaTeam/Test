@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IDB_Integrity_Due_Diligence</fullName>
+    <active>true</active>
+    <description>Select to request details for IDD.</description>
+    <label>Integrity Due Diligence</label>
+    <picklistValues>
+        <picklist>IDB_Subsection__c</picklist>
+        <values>
+            <fullName>Agreements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approvals and Regulatory Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bidding Process%2C Adjudication and Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Borrower%E2%80%99s Corporate structure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business address%2Fdomicile and place of incorporation of the parent holding companies%2C subsidiaries and affiliates%2C and confirmation of whether the Borrower has any affiliates in any %E2%80%9Coffshore%E2%80%9D jurisdictions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capital and Shares</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community Health and Safety</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Organization and Operation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documents Relating to Construction and the Builder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documents Relating to Maintenance and Operator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financing Arrangements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Labor conditions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Litigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Litigation%2FClaims</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Material Contracts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Occupational Safety and Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others%3A Land Acquisition%2C Biodiversity%2C Indigenous Communities and Cultural Heritage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permits and Authorizations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permits%2C Authorizations and Licenses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prevention and Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Books</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social%2C Environmental and Health and Safety Management Systems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Statement of outstanding common and preferred shares and any other securities of the Borrower%2C indicating the numbers and types of shares and the percentage of ownership of the Borrower represented by such shares</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taxes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>IDB_Team_Role__c</picklist>
+        <values>
+            <fullName>Advisory Services Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alternate Portfolio Management Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alternate Special Assets Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blended Finance Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Governance Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Risk Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development Effectiveness Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental and Social Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Analyst %2F Alternate Investment Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Products and Services Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Institutional Integrity Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Services Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Services Officer Monitoring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portfolio Administration Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portfolio Management Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resource Mobilization Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special Assets Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Leader</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction Attorney</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Section__c</picklist>
+        <values>
+            <fullName>Additional Information Requirements to Start the Environmental and Social Due Diligence Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complete Legal Due Diligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Governance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development Effectiveness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial Review</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Integrity Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Due Diligence Checklist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Due Diligence Questionnaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limited Legal Due Diligence Checklist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Litigations Investigations Questionnaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requirements for Environmental%2C Social and Occupational Health and Safety</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

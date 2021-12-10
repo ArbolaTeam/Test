@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Loan</fullName>
+                <default>false</default>
+                <label>Loan</label>
+            </value>
+            <value>
+                <fullName>Line of Credit</fullName>
+                <default>false</default>
+                <label>Line of Credit</label>
+            </value>
+            <value>
+                <fullName>Guarantees (sell protection = IDBI issuer = buy risk)</fullName>
+                <default>false</default>
+                <label>Guarantees (sell protection = IDBI issuer = buy risk)</label>
+            </value>
+            <value>
+                <fullName>Debt Securities</fullName>
+                <default>false</default>
+                <label>Debt Securities</label>
+            </value>
+            <value>
+                <fullName>Equity</fullName>
+                <default>false</default>
+                <label>Equity</label>
+            </value>
+            <value>
+                <fullName>Mezzanine</fullName>
+                <default>false</default>
+                <label>Mezzanine</label>
+            </value>
+            <value>
+                <fullName>Mobilization</fullName>
+                <default>false</default>
+                <label>Mobilization</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Family_Asset_Class__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Family (Asset Class)</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Loan</fullName>
+                <default>false</default>
+                <label>Loan</label>
+            </value>
+            <value>
+                <fullName>Structured Trade Finance</fullName>
+                <default>false</default>
+                <label>Structured Trade Finance</label>
+            </value>
+            <value>
+                <fullName>Supply Chain Finance</fullName>
+                <default>false</default>
+                <label>Supply Chain Finance</label>
+            </value>
+            <value>
+                <fullName>Traditional Trade Finance</fullName>
+                <default>false</default>
+                <label>Traditional Trade Finance</label>
+            </value>
+            <value>
+                <fullName>Line of Credit</fullName>
+                <default>false</default>
+                <label>Line of Credit</label>
+            </value>
+            <value>
+                <fullName>Financial</fullName>
+                <default>false</default>
+                <label>Financial</label>
+            </value>
+            <value>
+                <fullName>Performance</fullName>
+                <default>false</default>
+                <label>Performance</label>
+            </value>
+            <value>
+                <fullName>Bond</fullName>
+                <default>false</default>
+                <label>Bond</label>
+            </value>
+            <value>
+                <fullName>Structured Finance</fullName>
+                <default>false</default>
+                <label>Structured Finance</label>
+            </value>
+            <value>
+                <fullName>Equity</fullName>
+                <default>false</default>
+                <label>Equity</label>
+            </value>
+            <value>
+                <fullName>Mezzanine Loan</fullName>
+                <default>false</default>
+                <label>Mezzanine Loan</label>
+            </value>
+            <value>
+                <fullName>Mezzanine Bond</fullName>
+                <default>false</default>
+                <label>Mezzanine Bond</label>
+            </value>
+            <value>
+                <fullName>Direct Mobilization</fullName>
+                <default>false</default>
+                <label>Direct Mobilization</label>
+            </value>
+            <value>
+                <fullName>Indirect Mobilization</fullName>
+                <default>false</default>
+                <label>Indirect Mobilization</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Loan</controllingFieldValue>
+            <valueName>Loan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan</controllingFieldValue>
+            <valueName>Structured Trade Finance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Line of Credit</controllingFieldValue>
+            <valueName>Supply Chain Finance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Line of Credit</controllingFieldValue>
+            <valueName>Traditional Trade Finance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Line of Credit</controllingFieldValue>
+            <valueName>Line of Credit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Guarantees (sell protection = IDBI issuer = buy risk)</controllingFieldValue>
+            <valueName>Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Guarantees (sell protection = IDBI issuer = buy risk)</controllingFieldValue>
+            <valueName>Performance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Debt Securities</controllingFieldValue>
+            <valueName>Bond</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Debt Securities</controllingFieldValue>
+            <valueName>Structured Finance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity</controllingFieldValue>
+            <valueName>Equity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mezzanine</controllingFieldValue>
+            <valueName>Mezzanine Loan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mezzanine</controllingFieldValue>
+            <valueName>Mezzanine Bond</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mobilization</controllingFieldValue>
+            <valueName>Direct Mobilization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mobilization</controllingFieldValue>
+            <valueName>Indirect Mobilization</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

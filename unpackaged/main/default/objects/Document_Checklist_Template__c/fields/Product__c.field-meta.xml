@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product__c</fullName>
+    <externalId>false</externalId>
+    <label>Product</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Family_Asset_Class__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Project Finance Loan</fullName>
+                <default>false</default>
+                <label>Project Finance Loan</label>
+            </value>
+            <value>
+                <fullName>Loan</fullName>
+                <default>false</default>
+                <label>Loan</label>
+            </value>
+            <value>
+                <fullName>Fund Financing</fullName>
+                <default>false</default>
+                <label>Fund Financing</label>
+            </value>
+            <value>
+                <fullName>Pre-Export Finance (Capex)</fullName>
+                <default>false</default>
+                <label>Pre-Export Finance (Capex)</label>
+            </value>
+            <value>
+                <fullName>Accounts Receivable</fullName>
+                <default>false</default>
+                <label>Accounts Receivable</label>
+            </value>
+            <value>
+                <fullName>Accounts Payable</fullName>
+                <default>false</default>
+                <label>Accounts Payable</label>
+            </value>
+            <value>
+                <fullName>Working Capital Liquidity Lines</fullName>
+                <default>false</default>
+                <label>Working Capital Liquidity Lines</label>
+            </value>
+            <value>
+                <fullName>Import Finance</fullName>
+                <default>false</default>
+                <label>Import Finance</label>
+            </value>
+            <value>
+                <fullName>Pre-Export Finance</fullName>
+                <default>false</default>
+                <label>Pre-Export Finance</label>
+            </value>
+            <value>
+                <fullName>TFFP loan</fullName>
+                <default>false</default>
+                <label>TFFP loan</label>
+            </value>
+            <value>
+                <fullName>Warehousing Line</fullName>
+                <default>false</default>
+                <label>Warehousing Line</label>
+            </value>
+            <value>
+                <fullName>First Demand Guarantee</fullName>
+                <default>false</default>
+                <label>First Demand Guarantee</label>
+            </value>
+            <value>
+                <fullName>Trade Related Guarantees</fullName>
+                <default>false</default>
+                <label>Trade Related Guarantees</label>
+            </value>
+            <value>
+                <fullName>Liquidity Line</fullName>
+                <default>false</default>
+                <label>Liquidity Line</label>
+            </value>
+            <value>
+                <fullName>Corporate Guarantee</fullName>
+                <default>false</default>
+                <label>Corporate Guarantee</label>
+            </value>
+            <value>
+                <fullName>Structured Guarantee</fullName>
+                <default>false</default>
+                <label>Structured Guarantee</label>
+            </value>
+            <value>
+                <fullName>Bid Bond</fullName>
+                <default>false</default>
+                <label>Bid Bond</label>
+            </value>
+            <value>
+                <fullName>Performance Bond</fullName>
+                <default>false</default>
+                <label>Performance Bond</label>
+            </value>
+            <value>
+                <fullName>Bond</fullName>
+                <default>false</default>
+                <label>Bond</label>
+            </value>
+            <value>
+                <fullName>Fundo de Investimento em Direitos Creditórios - FIDC</fullName>
+                <default>false</default>
+                <label>Fundo de Investimento em Direitos Creditórios - FIDC</label>
+            </value>
+            <value>
+                <fullName>Collateralized Loan Obligation - CLO</fullName>
+                <default>false</default>
+                <label>Collateralized Loan Obligation - CLO</label>
+            </value>
+            <value>
+                <fullName>Diversified Payment Rights - DPR</fullName>
+                <default>false</default>
+                <label>Diversified Payment Rights - DPR</label>
+            </value>
+            <value>
+                <fullName>Asset Backed Securities - ABS</fullName>
+                <default>false</default>
+                <label>Asset Backed Securities - ABS</label>
+            </value>
+            <value>
+                <fullName>Debt Fund Participation</fullName>
+                <default>false</default>
+                <label>Debt Fund Participation</label>
+            </value>
+            <value>
+                <fullName>Common Equity</fullName>
+                <default>false</default>
+                <label>Common Equity</label>
+            </value>
+            <value>
+                <fullName>Preferred Equity</fullName>
+                <default>false</default>
+                <label>Preferred Equity</label>
+            </value>
+            <value>
+                <fullName>Equity investment funds</fullName>
+                <default>false</default>
+                <label>Equity investment funds</label>
+            </value>
+            <value>
+                <fullName>Loan - Mezzanine</fullName>
+                <default>false</default>
+                <label>Loan - Mezzanine</label>
+            </value>
+            <value>
+                <fullName>Loan - Perpetual</fullName>
+                <default>false</default>
+                <label>Loan - Perpetual</label>
+            </value>
+            <value>
+                <fullName>Loan - Convertible</fullName>
+                <default>false</default>
+                <label>Loan - Convertible</label>
+            </value>
+            <value>
+                <fullName>Bond - Mezzanine</fullName>
+                <default>false</default>
+                <label>Bond - Mezzanine</label>
+            </value>
+            <value>
+                <fullName>Bond - Perpetual</fullName>
+                <default>false</default>
+                <label>Bond - Perpetual</label>
+            </value>
+            <value>
+                <fullName>Bond - Convertible</fullName>
+                <default>false</default>
+                <label>Bond - Convertible</label>
+            </value>
+            <value>
+                <fullName>B Loans</fullName>
+                <default>false</default>
+                <label>B Loans</label>
+            </value>
+            <value>
+                <fullName>B Bonds</fullName>
+                <default>false</default>
+                <label>B Bonds</label>
+            </value>
+            <value>
+                <fullName>Loan Participation (Secondary Sale)</fullName>
+                <default>false</default>
+                <label>Loan Participation (Secondary Sale)</label>
+            </value>
+            <value>
+                <fullName>Loan Assignment (Secondary)</fullName>
+                <default>false</default>
+                <label>Loan Assignment (Secondary)</label>
+            </value>
+            <value>
+                <fullName>Credit Insurance (UCP)</fullName>
+                <default>false</default>
+                <label>Credit Insurance (UCP)</label>
+            </value>
+            <value>
+                <fullName>Unfunded Risk Participation</fullName>
+                <default>false</default>
+                <label>Unfunded Risk Participation</label>
+            </value>
+            <value>
+                <fullName>Parallel Loans / Co-Loans</fullName>
+                <default>false</default>
+                <label>Parallel Loans / Co-Loans</label>
+            </value>
+            <value>
+                <fullName>IDB Invest Managed Funds</fullName>
+                <default>false</default>
+                <label>IDB Invest Managed Funds</label>
+            </value>
+            <value>
+                <fullName>Partial Credit Guarantee Mobilization (Alpha Third Party Loan/Bond - PCG)</fullName>
+                <default>false</default>
+                <label>Partial Credit Guarantee Mobilization (Alpha Third Party Loan/Bond - PCG)</label>
+            </value>
+            <value>
+                <fullName>Blended - Equity - IDB Invest Managed Funds</fullName>
+                <default>false</default>
+                <label>Blended - Equity - IDB Invest Managed Funds</label>
+            </value>
+            <value>
+                <fullName>Blended - Performance Grants - IDB Invest Managed Funds</fullName>
+                <default>false</default>
+                <label>Blended - Performance Grants - IDB Invest Managed Funds</label>
+            </value>
+            <value>
+                <fullName>Blended - External Guarantee - IDB Invest Managed Funds</fullName>
+                <default>false</default>
+                <label>Blended - External Guarantee - IDB Invest Managed Funds</label>
+            </value>
+            <value>
+                <fullName>Blended - Internal Guarantee - IDB Invest Managed Funds</fullName>
+                <default>false</default>
+                <label>Blended - Internal Guarantee - IDB Invest Managed Funds</label>
+            </value>
+            <value>
+                <fullName>Blended - Debt - IDB Invest Managed Funds</fullName>
+                <default>false</default>
+                <label>Blended - Debt - IDB Invest Managed Funds</label>
+            </value>
+            <value>
+                <fullName>Blended - Loan Participation - IDB Invest Managed Funds</fullName>
+                <default>false</default>
+                <label>Blended - Loan Participation - IDB Invest Managed Funds</label>
+            </value>
+            <value>
+                <fullName>Blended - Debt Security - IDB Invest Managed Funds</fullName>
+                <default>false</default>
+                <label>Blended - Debt Security - IDB Invest Managed Funds</label>
+            </value>
+            <value>
+                <fullName>Additional Co-Financings</fullName>
+                <default>false</default>
+                <label>Additional Co-Financings</label>
+            </value>
+            <value>
+                <fullName>Convertible</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Convertible</label>
+            </value>
+            <value>
+                <fullName>Mezzanine</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mezzanine</label>
+            </value>
+            <value>
+                <fullName>Perpetual</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Perpetual</label>
+            </value>
+            <value>
+                <fullName>Senior Loan</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Senior Loan</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Mezzanine Loan</controllingFieldValue>
+            <valueName>Loan - Mezzanine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mezzanine Loan</controllingFieldValue>
+            <valueName>Loan - Perpetual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mezzanine Loan</controllingFieldValue>
+            <valueName>Loan - Convertible</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mezzanine Bond</controllingFieldValue>
+            <valueName>Bond - Mezzanine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mezzanine Bond</controllingFieldValue>
+            <valueName>Bond - Perpetual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mezzanine Bond</controllingFieldValue>
+            <valueName>Bond - Convertible</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Mobilization</controllingFieldValue>
+            <valueName>B Loans</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Mobilization</controllingFieldValue>
+            <valueName>B Bonds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Mobilization</controllingFieldValue>
+            <valueName>Loan Participation (Secondary Sale)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Mobilization</controllingFieldValue>
+            <valueName>Loan Assignment (Secondary)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Mobilization</controllingFieldValue>
+            <valueName>Credit Insurance (UCP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Mobilization</controllingFieldValue>
+            <valueName>Unfunded Risk Participation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Mobilization</controllingFieldValue>
+            <valueName>Parallel Loans / Co-Loans</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Mobilization</controllingFieldValue>
+            <valueName>IDB Invest Managed Funds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Mobilization</controllingFieldValue>
+            <valueName>Partial Credit Guarantee Mobilization (Alpha Third Party Loan/Bond - PCG)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Mobilization</controllingFieldValue>
+            <valueName>Blended - Equity - IDB Invest Managed Funds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Mobilization</controllingFieldValue>
+            <valueName>Blended - Performance Grants - IDB Invest Managed Funds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Mobilization</controllingFieldValue>
+            <valueName>Blended - External Guarantee - IDB Invest Managed Funds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Mobilization</controllingFieldValue>
+            <valueName>Blended - Internal Guarantee - IDB Invest Managed Funds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Mobilization</controllingFieldValue>
+            <valueName>Blended - Debt - IDB Invest Managed Funds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Mobilization</controllingFieldValue>
+            <valueName>Blended - Loan Participation - IDB Invest Managed Funds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Mobilization</controllingFieldValue>
+            <valueName>Blended - Debt Security - IDB Invest Managed Funds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Indirect Mobilization</controllingFieldValue>
+            <valueName>Additional Co-Financings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan</controllingFieldValue>
+            <valueName>Project Finance Loan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan</controllingFieldValue>
+            <valueName>Loan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan</controllingFieldValue>
+            <valueName>Fund Financing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structured Trade Finance</controllingFieldValue>
+            <valueName>Pre-Export Finance (Capex)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supply Chain Finance</controllingFieldValue>
+            <valueName>Accounts Receivable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supply Chain Finance</controllingFieldValue>
+            <valueName>Accounts Payable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supply Chain Finance</controllingFieldValue>
+            <valueName>Working Capital Liquidity Lines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traditional Trade Finance</controllingFieldValue>
+            <valueName>Import Finance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traditional Trade Finance</controllingFieldValue>
+            <valueName>Pre-Export Finance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traditional Trade Finance</controllingFieldValue>
+            <valueName>TFFP loan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Line of Credit</controllingFieldValue>
+            <valueName>Warehousing Line</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial</controllingFieldValue>
+            <valueName>First Demand Guarantee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial</controllingFieldValue>
+            <valueName>Trade Related Guarantees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial</controllingFieldValue>
+            <valueName>Liquidity Line</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial</controllingFieldValue>
+            <valueName>Corporate Guarantee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial</controllingFieldValue>
+            <valueName>Structured Guarantee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance</controllingFieldValue>
+            <valueName>Bid Bond</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance</controllingFieldValue>
+            <valueName>Performance Bond</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bond</controllingFieldValue>
+            <valueName>Bond</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structured Finance</controllingFieldValue>
+            <valueName>Fundo de Investimento em Direitos Creditórios - FIDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structured Finance</controllingFieldValue>
+            <valueName>Collateralized Loan Obligation - CLO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structured Finance</controllingFieldValue>
+            <valueName>Diversified Payment Rights - DPR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structured Finance</controllingFieldValue>
+            <valueName>Asset Backed Securities - ABS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structured Finance</controllingFieldValue>
+            <valueName>Debt Fund Participation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity</controllingFieldValue>
+            <valueName>Common Equity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity</controllingFieldValue>
+            <valueName>Preferred Equity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity</controllingFieldValue>
+            <valueName>Equity investment funds</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

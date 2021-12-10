@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Firm_Classification__c</fullName>
+    <externalId>false</externalId>
+    <label>Firm Classification</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Local Counsel</fullName>
+                <default>false</default>
+                <label>Local Counsel</label>
+            </value>
+            <value>
+                <fullName>International Counsel - US</fullName>
+                <default>false</default>
+                <label>International Counsel - US</label>
+            </value>
+            <value>
+                <fullName>International Counsel - Non US</fullName>
+                <default>false</default>
+                <label>International Counsel - Non US</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

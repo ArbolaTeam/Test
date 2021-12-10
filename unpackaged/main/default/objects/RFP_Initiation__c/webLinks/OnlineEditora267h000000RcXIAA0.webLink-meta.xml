@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OnlineEditora267h000000RcXIAA0</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>RFP Template</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR(IF($Site.prefix == '/s','/apex/dfsle__onlineeditordocumentgenerator', $Site.Prefix +'/apex/dfsle__onlineeditordocumentgenerator'), null, [sId = RFP_Initiation__c.Id, templateId = 'a267h000000RcXIAA0', recordId = RFP_Initiation__c.Id, title = 'Generate RFP Template'])}</url>
+</WebLink>

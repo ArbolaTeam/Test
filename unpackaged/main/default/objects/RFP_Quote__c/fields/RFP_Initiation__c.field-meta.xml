@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RFP_Initiation__c</fullName>
+    <externalId>false</externalId>
+    <label>RFP Initiation</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>RFP_Initiation__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>RFP_Initiation__c</referenceTo>
+    <relationshipLabel>RFP Quotes</relationshipLabel>
+    <relationshipName>RFP_Quotes</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>true</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transaction_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Transaction Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Capital Markets</fullName>
+                <default>false</default>
+                <label>Capital Markets</label>
+            </value>
+            <value>
+                <fullName>Corporate Finance</fullName>
+                <default>false</default>
+                <label>Corporate Finance</label>
+            </value>
+            <value>
+                <fullName>Equity</fullName>
+                <default>false</default>
+                <label>Equity</label>
+            </value>
+            <value>
+                <fullName>Financial Institutions</fullName>
+                <default>false</default>
+                <label>Financial Institutions</label>
+            </value>
+            <value>
+                <fullName>Funds</fullName>
+                <default>false</default>
+                <label>Funds</label>
+            </value>
+            <value>
+                <fullName>Institutional</fullName>
+                <default>false</default>
+                <label>Institutional</label>
+            </value>
+            <value>
+                <fullName>MIF Equity</fullName>
+                <default>false</default>
+                <label>MIF Equity</label>
+            </value>
+            <value>
+                <fullName>MIF Lending</fullName>
+                <default>false</default>
+                <label>MIF Lending</label>
+            </value>
+            <value>
+                <fullName>Mobilization</fullName>
+                <default>false</default>
+                <label>Mobilization</label>
+            </value>
+            <value>
+                <fullName>Model Forms</fullName>
+                <default>false</default>
+                <label>Model Forms</label>
+            </value>
+            <value>
+                <fullName>Project Finance</fullName>
+                <default>false</default>
+                <label>Project Finance</label>
+            </value>
+            <value>
+                <fullName>Structure Finance</fullName>
+                <default>false</default>
+                <label>Structure Finance</label>
+            </value>
+            <value>
+                <fullName>Supply Chain</fullName>
+                <default>false</default>
+                <label>Supply Chain</label>
+            </value>
+            <value>
+                <fullName>TFFP</fullName>
+                <default>false</default>
+                <label>TFFP</label>
+            </value>
+            <value>
+                <fullName>Treasury</fullName>
+                <default>false</default>
+                <label>Treasury</label>
+            </value>
+            <value>
+                <fullName>Operations</fullName>
+                <default>false</default>
+                <label>Operations</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
